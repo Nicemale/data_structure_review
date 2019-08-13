@@ -1,0 +1,8 @@
+// algorithmic process:
+/*
+	Target:
+		reduce recall times of target string, when target string mismatch before, we need to move current char pointer of target string  to the first character and right shift source string to continuely match, but now we wanna find a way out to reduce target stirng recall times or even no need for one time recall can complete the match.
+	Generalization:
+		we need two steps to finish KMP match algorithm, 1: compute out the next arrary that next[J] recored how many char from the beginning of current target string are same with the chars front of current string[J] of  current index J; 2: using next arrary in step 1 to reduce recall times, if we mismatch at index 3, then we know that the s[1]s[2] t[1]t[2] are matched, now let's see next[3]=2, which means there two chars in front of t[3] are same with t[0]t[1], that's saying t[1]t[2] == t[0]t[1] == s[1]s[2], okay, now we can alignment s[1]s[2] t[0]t[1], and match source string with i = 3(startindex + next[3]) target string index next[3].
+
+*/
