@@ -1,6 +1,6 @@
 # data_structure_review 
- <hr/>
+
  
- ![usingLan](https://img.shields.io/badge/JAVA/C/C++/Python-etc..+-green.svg)
+ ![usingLan](https://img.shields.io/badge/using-JAVA/C/C++/Python-green.svg)
  
 For reproduction of classical data structure code
